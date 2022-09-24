@@ -1,0 +1,68 @@
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --background-color: #30336b;
+    --navbar-background-color-1: rgba(235, 47, 6, 0.2);
+    --navbar-background-color-2: rgba(246, 38, 130, 0.2);
+    --navbar-background-mobile-color-1: rgba(231, 76, 60, 0.8);
+    --navbar-background-mobile-color-2: rgba(243, 156, 18, 0.8);
+    --navbar-border-color: rgba(246, 38, 130, 0.1);
+    --navbar-btn-hover-color: rgba(195, 195, 195, 0.3);
+    --title-header-color-1: #eb2f06;
+    --title-header-color-2: #f62682;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 10px; */
+    font-size: 62.5%;
+    font-weight: 500;
+    /* line-height: 16px; */
+    line-height: 1.6rem;
+}
+
+/* ==================================================================== */
+/* ==================================================================== */
+/* ==================================================================== */
+.hidden {
+    display: none;
+}
+
+.open .appear {
+    display: block;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.father {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+}
+
+.flex__row-wrap {
+    display: inline-flex;
+}
+
+.flex__row-nowrap {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.flex__col {
+    display: inline-flex;
+    flex-direction: column;
+}

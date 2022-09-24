@@ -1,0 +1,239 @@
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #lesson-header .header-navbar {
+        background-image: linear-gradient(30deg, var(--navbar-background-mobile-color-1) 10%, var(--navbar-background-mobile-color-2));
+        border-radius: 12px;
+        border: none;
+        top: 28px;
+        height: 50px;
+    }
+    @keyframes navbarFloatIn {
+        from {
+            top: -30px;
+        }
+    
+        to {
+            top: 28px;
+        }
+    }
+    .header-navbar .header-navbar__logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 24px;
+    }
+
+    .header-navbar .navbar-list .navbar-list__item a {
+        font-size: 1.6rem;
+        height: 50px;
+        width: 100px;
+        line-height: 50px;
+    }
+
+    .header-navbar .navbar-btn-menu {
+        display: block;
+        font-size: 2.4rem;
+        color: var(--white-color);
+        line-height: 50px;
+    }
+
+    .header-navbar .header-navbar__list-nav {
+        position: relative;
+    }
+
+    .header-navbar .header-navbar__list-nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 26px;
+        right: -65px;
+        background-image: linear-gradient(30deg, var(--navbar-background-mobile-color-1) 10%, var(--navbar-background-mobile-color-2));
+        animation: navbarBoxAppear ease-in-out .4s;
+    }
+
+    .header-navbar .header-navbar__list-nav ul li {
+        border-bottom: 1px solid #ccc;
+        height: 56px;
+        width: 180px;
+    }
+
+    .header-navbar .header-navbar__search {
+        display: none;
+    }
+
+    .header-navbar .header-navbar__cart-regis .navbar-regis {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+    .header-navbar .header-navbar__cart-regis .navbar-cart .navbar-cart__icon {
+        font-size: 1.8rem;
+        line-height: 50px;
+        margin: 0;
+        padding: 13px 25px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .header-navbar .header-navbar__cart-regis .navbar-cart__box i {
+        right: 28px;
+    }
+
+    #lesson-header h1 {
+        padding-top: 60px;
+        font-size: 3.6rem;
+        line-height: 5rem;
+        letter-spacing: 0.4rem;
+    }
+
+    @keyframes titleHeaderH1 {
+        from {
+            opacity: 0;
+            letter-spacing: 0;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(0deg, var(--title-header-color-1) 20%, var(--title-header-color-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    
+        to {
+            opacity: 1;
+            letter-spacing: 0.4rem;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(45deg, var(--title-header-color-1) 20%, var(--title-header-color-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    }
+    #lesson-header .header-img-middle {
+        width: 180px;
+        top: 75%;
+    }
+}
+
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+@media (max-width: 739px) {
+    #lesson-header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../img/background/header_background_mobile.jpg');
+    }
+
+    #lesson-header .header-navbar {
+        background-image: linear-gradient(30deg, var(--navbar-background-mobile-color-1) 10%, var(--navbar-background-mobile-color-2));
+        border-radius: 12px;
+        border: none;
+        top: 28px;
+        height: 50px;
+    }
+    @keyframes navbarFloatIn {
+        from {
+            top: -30px;
+        }
+    
+        to {
+            top: 28px;
+        }
+    }
+    .header-navbar .header-navbar__logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 24px;
+    }
+
+    .header-navbar .navbar-list .navbar-list__item a {
+        font-size: 1.6rem;
+        height: 50px;
+        width: 100px;
+        line-height: 50px;
+    }
+
+    .header-navbar .navbar-btn-menu {
+        display: block;
+        font-size: 2.4rem;
+        color: var(--white-color);
+        line-height: 50px;
+    }
+
+    .header-navbar .header-navbar__list-nav {
+        position: relative;
+    }
+
+    .header-navbar .header-navbar__list-nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 26px;
+        right: -65px;
+        background-image: linear-gradient(30deg, var(--navbar-background-mobile-color-1) 10%, var(--navbar-background-mobile-color-2));
+        animation: navbarBoxAppear ease-in-out .4s;
+    }
+
+    .header-navbar .header-navbar__list-nav ul li {
+        border-bottom: 1px solid #ccc;
+        height: 56px;
+        width: 180px;
+    }
+
+    .header-navbar .header-navbar__search {
+        display: none;
+    }
+
+    .header-navbar .header-navbar__cart-regis .navbar-regis {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+    .header-navbar .header-navbar__cart-regis .navbar-cart .navbar-cart__icon {
+        font-size: 1.8rem;
+        line-height: 50px;
+        margin: 0;
+        padding: 13px 25px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .header-navbar .header-navbar__cart-regis .navbar-cart__box i {
+        right: 28px;
+    }
+
+    #lesson-header h1 {
+        padding-top: 60px;
+        font-size: 3.3rem;
+        line-height: 5rem;
+        letter-spacing: 0.4rem;
+    }
+
+    @keyframes titleHeaderH1 {
+        from {
+            opacity: 0;
+            letter-spacing: 0;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(0deg, var(--title-header-color-1) 20%, var(--title-header-color-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    
+        to {
+            opacity: 1;
+            letter-spacing: 0.4rem;
+            -webkit-text-fill-color: transparent;
+            background: -webkit-linear-gradient(45deg, var(--title-header-color-1) 20%, var(--title-header-color-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    }
+    #lesson-header .header-img-middle {
+        width: 180px;
+        top: 75%;
+    }
+
+    #lesson-header .header-best-saler {
+        display: none;
+    }
+
+    #lesson-header .header-best-saler--mobile {
+        display: block;
+    }
+}

@@ -1,0 +1,41 @@
+@keyframes navbarFloatIn {
+    from {
+        top: -36px;
+    }
+
+    to {
+        top: 36px;
+    }
+}
+
+@keyframes navbarBoxAppear {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes titleHeaderH1 {
+    from {
+        opacity: 0;
+        letter-spacing: 0;
+        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(0deg, var(--title-header-color-1) 20%, var(--title-header-color-2));
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    to {
+        opacity: 1;
+        letter-spacing: 1.4rem;
+        -webkit-text-fill-color: transparent;
+        background: -webkit-linear-gradient(45deg, var(--title-header-color-1) 20%, var(--title-header-color-2));
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
